@@ -1,0 +1,295 @@
+body {
+    background-image: url(../img/bg-desktop.jpg);
+    background-attachment: fixed;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.menu {
+    display: grid;
+    justify-content: center;
+}
+
+.login {
+    background-color: #f9f9f9;
+    color: #111;
+    display: grid;
+    flex-direction: row;
+    align-items: center;
+    width: 500px;
+    height: 600px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+h1 {
+    color: #111;
+    text-align: center;
+    padding: 0;
+    font-size: 30px;
+    margin: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin-top: 80px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+}
+
+.main {
+    background-color: rgb(240, 240, 240);
+    outline: none;
+    border: none;
+    margin: 5px;
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 13px;
+    color: rgb(118, 118, 118);
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.check {
+    background-color: transparent;
+    justify-content: left;
+    width: 100%;
+    height: 30px;
+    color: black;
+    font-size: 16px;
+    margin-left: 25%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+
+/*Botão de acesso*/
+
+.acesso {
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    width: 80%;
+    height: 100%;
+    justify-items: center;
+    justify-content: space-around;
+    margin: 5px;
+    padding: 0;
+}
+
+.btn-facebook {
+    background-color: #1877f2;
+    color: white;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn-google {
+    background-color: white;
+    color: white;
+    outline: none;
+    border-radius: 4px;
+    border: whitesmoke;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid rgba(0, 0, 0, 0.05);
+}
+
+.btn-apple {
+    background-color: #111;
+    color: white;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn-joy {
+    background-color: #f9f9f9;
+    color: rgb(230, 230, 230);
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    border: 2px solid rgb(230, 230, 230);
+    width: 85px;
+    height: 85px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.help {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 80px;
+}
+
+a:link {
+    text-decoration: none;
+    text-transform: none;
+    color: rgb(118, 118, 118);
+}
+
+
+/*Rodape*/
+
+footer {
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    grid-template-rows: 1fr;
+    justify-content: left;
+    margin-top: 80px;
+    background-color: transparent;
+    margin-bottom: 40px;
+    width: 30%;
+}
+
+.linguagem {
+    border: 3px solid rgba(167, 46, 25, 0.8);
+    background-color: transparent;
+    color: white;
+    width: 120px;
+    height: 45px;
+    border-radius: 25px;
+    text-align: center;
+    outline: none;
+    padding: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    overflow: hidden;
+    padding: 1px;
+    text-indent: 0.01px;
+    text-overflow: "";
+    margin-left: 15px;
+    font-size: 15px;
+    margin-right: 25px;
+}
+
+option {
+    border: rgb(167, 46, 25) 5;
+    background-color: transparent;
+    color: white;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    text-indent: 0.01px;
+    text-overflow: "";
+}
+
+.extra {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+}
+
+.links {
+    color: rgb(245, 244, 244);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.links a {
+    color: rgb(230, 223, 223);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.direito {
+    color: #686767d4;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 10px;
+}
+
+
+/*Hovers - focus*/
+
+.btn-facebook:hover {
+    background-color: #1365d1;
+}
+
+.btn-google:hover {
+    border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.btn-apple:hover {
+    color: rgb(218, 216, 216);
+}
+
+.btn-joy:hover {
+    background-color: #ff4655;
+    color: white;
+}
+
+a:hover {
+    color: rgb(78, 78, 78);
+    text-decoration: none;
+    text-transform: none;
+}
+
+.links:hover {
+    color: beige;
+    cursor: pointer;
+}
+
+.links a:hover {
+    color: rgb(153, 153, 153);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.linguagem:hover {
+    border: 3px solid #ff4655;
+    cursor: pointer;
+}
+
+a:focus {
+    color: rgb(78, 78, 78);
+    text-decoration: none;
+    text-transform: none;
+}
+
+.main:focus {
+    background-color: white;
+    border: 2px solid rgb(31, 31, 31);
+}
+
+
+/*Responsivo*/
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: url(../img/bg-mobile.jpg);
+        background-attachment: fixed;
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
